@@ -1,15 +1,9 @@
 const express = require('express')
-const passport = require('passport')
-const GoogleStrategy = require('passport-google-oauth20').Strategy
-
+require('./services/passport')
 
 const app = express()
 
-
-passport.use(new GoogleStrategy({
-    
-}))
-
+require('./routes/v1/auth')(app)
 
 app.get('/', (req, res) => {
     res.send({'status': 'working'})
