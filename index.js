@@ -1,5 +1,9 @@
 const express = require('express')
+const mongoose = require('mongoose')
+const {mongoUri} = require('./config/keys')
 require('./services/passport')
+
+mongoose.connect(mongoUri, {useNewUrlParser:true})
 
 const app = express()
 

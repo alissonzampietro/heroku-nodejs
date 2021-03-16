@@ -1,6 +1,7 @@
 const keys = {
-    googleClientID: '',
-    googleClientSecret: ''
+    googleClientId: '',
+    googleClientSecret: '',
+    mongoUri: ''
 }
 
 module.exports = keys;
