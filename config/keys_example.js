@@ -1,7 +1,8 @@
 const keys = {
     googleClientId: '',
     googleClientSecret: '',
-    mongoUri: ''
+    mongoUri: '',
+    cookieKey: ''
 }
 
 module.exports = keys;
