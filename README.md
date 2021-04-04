@@ -7,4 +7,4 @@ For the authentication, it's been using the Google Auth Strategy with the cookie
 
 ## Cookie-Session vs Express-Session
 
-The difference between the both libraries is in the way that they store the data. While Cookie-Session stores the information itself, Express-Session needs the helper of some database, as it creates an ID and after you get the information associated with the ID in the database.
+The difference between the both libraries is in the way that they store the data. While Cookie-Session stores the information itself, Express-Session needs the help of some database, as it creates an ID an after it gets the information associated with the ID in the database.

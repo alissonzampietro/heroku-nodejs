@@ -14,7 +14,7 @@ app.use(
 )
 
 app.use(passport.initialize());
-app.use(passport.session());
+app.use(passport.session()); 
 
 require('./routes/v1/auth')(app)
 
