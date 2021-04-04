@@ -19,7 +19,7 @@ app.use(passport.session());
 require('./routes/v1/auth')(app)
 
 app.get('/', (req, res) => {
-    res.send({'status': 'working'})
+    res.send({'status': 'api working'})
 })
 
 const PORT = process.env.PORT || 5000
